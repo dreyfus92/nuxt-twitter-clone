@@ -7,9 +7,9 @@
         >
           <!-- Left Sidebar -->
 
-          <div class="hidden md:block xs-col-span-1 xl:col-span-2">
+          <div class="md:block xs-col-span-1 xl:col-span-2">
             <div class="sticky top-0">
-              <Left />
+              <SidebarLeft />
             </div>
           </div>
 
@@ -22,5 +22,5 @@
   </div>
 </template>
 <script setup>
-const darkMode = ref(false);
+const darkMode = ref(true);
 </script>
